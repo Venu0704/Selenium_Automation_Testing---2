@@ -3,3 +3,5 @@ Hello all! how are you?
 Added text to the manualtester branch
 
 Added a new line by Venu
+
+Added a new line by X
