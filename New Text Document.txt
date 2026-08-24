@@ -1,3 +1,5 @@
 Hello all! how are you?
 
 Added text to the manualtester branch
+
+Added a new line by Venu
