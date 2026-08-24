@@ -1,0 +1,28 @@
+Running Scenario's using Ecplise Maven Plugin
+
+Steps:
+
+1. Right click on the Project
+2. Run as -> New Configuration
+3. Create a new configuration if no configuration found
+4. Base directory: Give the project path
+5. Goals: test or test -Dcucumber.filter.tags="@smoke" // it only run the features with smoke tag
+6. Click on run
+
+We can overide the cucumber options from ther command line executions at the run time
+for example: mvn test -Dcucumber.filter.tags="@smoke" -> If we pass this it will overide the tags
+present in cucumber options
+
+other properties: 
+cucumber.ansi-colors.disabled=  # true or false. default: false
+cucumber.execution.dry-run=     # true or false. default: false
+cucumber.execution.limit=       # number of scenarios to execute (CLI only).
+cucumber.execution.order=       # lexical, reverse, random or random:[seed] (CLI only). default: lexical
+cucumber.execution.wip=         # true or false. default: false.
+cucumber.features=              # comma separated paths to feature files. example: path/to/example.feature, path/to/other.feature
+cucumber.filter.name=           # regex. example: .*Hello.*
+cucumber.filter.tags=           # tag expression. example: @smoke and not @slow
+cucumber.glue=                  # comma separated package names. example: com.example.glue
+cucumber.plugin=                # comma separated plugin strings. example: pretty, json:path/to/report.json
+cucumber.object-factory=        # object factory class name. example: com.example.MyObjectFactory
+cucumber.snippet-type=          # underscore or camelcase. default: underscore

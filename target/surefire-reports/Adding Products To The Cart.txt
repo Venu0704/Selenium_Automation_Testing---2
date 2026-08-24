@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Adding Products To The Cart
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.643 s - in Adding Products To The Cart
